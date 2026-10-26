@@ -1,0 +1,249 @@
+[
+  {
+    "question_id": "q_001",
+    "question": "截至2026年5月，AI171空难死亡人数应以机上241人、全部242人还是含地面共274人为准？",
+    "conclusion": "截至2026年5月，证据中没有任何单一权威口径能同时支持“机上241人”“全部242人”或“含地面共274人”三者之一作为唯一最终数字。可较稳妥并列的是：机上242人中241人遇难、1人生还（印度航空及多家报道）；含地面人员的总数存在至少265人、270余人、274人（含33名地面人员）、260人（含地面19人）等不同口径，且警方曾表示尚不能确定最终遇难人数。2026年5月报道仅称调查进入最后阶段并提及260人死亡，未给出最终遇难人数口径。",
+    "supporting_facts": [
+      {
+        "doc_id": "doc_001",
+        "para_id": "doc_001#p3"
+      },
+      {
+        "doc_id": "doc_002",
+        "para_id": "doc_002#p8"
+      },
+      {
+        "doc_id": "doc_005",
+        "para_id": "doc_005#p3"
+      },
+      {
+        "doc_id": "doc_007",
+        "para_id": "doc_007#p3"
+      },
+      {
+        "doc_id": "doc_012",
+        "para_id": "doc_012#p8"
+      },
+      {
+        "doc_id": "doc_025",
+        "para_id": "doc_025#p2"
+      },
+      {
+        "doc_id": "doc_018",
+        "para_id": "doc_018#p20"
+      },
+      {
+        "doc_id": "doc_030",
+        "para_id": "doc_030#p2"
+      },
+      {
+        "doc_id": "doc_015",
+        "para_id": "doc_015#p1"
+      },
+      {
+        "doc_id": "doc_015",
+        "para_id": "doc_015#p5"
+      }
+    ],
+    "conflicting_facts": [
+      {
+        "doc_id": "doc_001",
+        "para_id": "doc_001#p3"
+      },
+      {
+        "doc_id": "doc_002",
+        "para_id": "doc_002#p22"
+      },
+      {
+        "doc_id": "doc_002",
+        "para_id": "doc_002#p46"
+      },
+      {
+        "doc_id": "doc_006",
+        "para_id": "doc_006#p3"
+      },
+      {
+        "doc_id": "doc_010",
+        "para_id": "doc_010#p7"
+      },
+      {
+        "doc_id": "doc_011",
+        "para_id": "doc_011#p2"
+      },
+      {
+        "doc_id": "doc_016",
+        "para_id": "doc_016#p21"
+      },
+      {
+        "doc_id": "doc_024",
+        "para_id": "doc_024#p1"
+      },
+      {
+        "doc_id": "doc_039",
+        "para_id": "doc_039#p4"
+      },
+      {
+        "doc_id": "doc_050",
+        "para_id": "doc_050#p1"
+      },
+      {
+        "doc_id": "doc_057",
+        "para_id": "doc_057#p2"
+      }
+    ]
+  },
+  {
+    "question_id": "q_002",
+    "question": "官方调查是否已认定AI171坠机系机组关闭燃油开关所致，而非波音燃油开关设计缺陷？",
+    "conclusion": "官方调查尚未认定AI171坠机系机组关闭燃油开关所致，也未认定系波音燃油开关设计缺陷。印度航空事故调查局初步报告确认两台发动机燃油开关在起飞后短时间内从“运行”切换至“切断”并导致供油中断，但未说明切换原因、未点明操作者，并明确现阶段下结论为时尚早；美方初步评估及媒体关于机长关闭开关的说法属单方消息，尚待官方确认。",
+    "supporting_facts": [
+      {
+        "doc_id": "doc_006",
+        "para_id": "doc_006#p3"
+      },
+      {
+        "doc_id": "doc_007",
+        "para_id": "doc_007#p3"
+      },
+      {
+        "doc_id": "doc_011",
+        "para_id": "doc_011#p2"
+      },
+      {
+        "doc_id": "doc_013",
+        "para_id": "doc_013#p8"
+      },
+      {
+        "doc_id": "doc_016",
+        "para_id": "doc_016#p17"
+      },
+      {
+        "doc_id": "doc_020",
+        "para_id": "doc_020#p30"
+      },
+      {
+        "doc_id": "doc_024",
+        "para_id": "doc_024#p1"
+      },
+      {
+        "doc_id": "doc_025",
+        "para_id": "doc_025#p3"
+      },
+      {
+        "doc_id": "doc_025",
+        "para_id": "doc_025#p7"
+      },
+      {
+        "doc_id": "doc_035",
+        "para_id": "doc_035#p17"
+      },
+      {
+        "doc_id": "doc_036",
+        "para_id": "doc_036#p18"
+      },
+      {
+        "doc_id": "doc_036",
+        "para_id": "doc_036#p22"
+      },
+      {
+        "doc_id": "doc_049",
+        "para_id": "doc_049#p1"
+      }
+    ],
+    "conflicting_facts": [
+      {
+        "doc_id": "doc_006",
+        "para_id": "doc_006#p3"
+      },
+      {
+        "doc_id": "doc_011",
+        "para_id": "doc_011#p2"
+      },
+      {
+        "doc_id": "doc_014",
+        "para_id": "doc_014#p1"
+      },
+      {
+        "doc_id": "doc_036",
+        "para_id": "doc_036#p14"
+      },
+      {
+        "doc_id": "doc_036",
+        "para_id": "doc_036#p16"
+      },
+      {
+        "doc_id": "doc_043",
+        "para_id": "doc_043#p1"
+      },
+      {
+        "doc_id": "doc_057",
+        "para_id": "doc_057#p3"
+      },
+      {
+        "doc_id": "doc_057",
+        "para_id": "doc_057#p7"
+      }
+    ]
+  },
+  {
+    "question_id": "q_003",
+    "question": "11A座位靠近紧急出口是否真的提高了AI171幸存者的生还概率，还是纯属侥幸？",
+    "conclusion": "现有证据不足以认定11A座位靠近紧急出口确实提高了AI171幸存者的生还概率。专家意见分歧：有专家认为幸存与座位位置无关、纯属侥幸；也有专家称11A因靠近紧急出口是当天最安全座位，但强调不意味着该座位在每架飞机上都安全。幸存者本人表示不清楚自己如何活下来。仅有单一幸存者个案，无法据此推断座位与生还概率的因果关系。",
+    "supporting_facts": [
+      {
+        "doc_id": "doc_004",
+        "para_id": "doc_004#p3"
+      },
+      {
+        "doc_id": "doc_004",
+        "para_id": "doc_004#p8"
+      },
+      {
+        "doc_id": "doc_004",
+        "para_id": "doc_004#p6"
+      },
+      {
+        "doc_id": "doc_017",
+        "para_id": "doc_017#p16"
+      },
+      {
+        "doc_id": "doc_044",
+        "para_id": "doc_044#p16"
+      },
+      {
+        "doc_id": "doc_044",
+        "para_id": "doc_044#p19"
+      },
+      {
+        "doc_id": "doc_044",
+        "para_id": "doc_044#p22"
+      },
+      {
+        "doc_id": "doc_055",
+        "para_id": "doc_055#p15"
+      },
+      {
+        "doc_id": "doc_055",
+        "para_id": "doc_055#p13"
+      }
+    ],
+    "conflicting_facts": [
+      {
+        "doc_id": "doc_004",
+        "para_id": "doc_004#p5"
+      },
+      {
+        "doc_id": "doc_054",
+        "para_id": "doc_054#p6"
+      },
+      {
+        "doc_id": "doc_055",
+        "para_id": "doc_055#p18"
+      },
+      {
+        "doc_id": "doc_055",
+        "para_id": "doc_055#p20"
+      }
+    ]
+  }
+]

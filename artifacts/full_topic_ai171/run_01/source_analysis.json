@@ -1,0 +1,1995 @@
+{
+  "document_count": 52,
+  "source_group_count_estimate": 49,
+  "evidence_count": 208,
+  "evidence_document_count": 47,
+  "independent_source_count_estimate": 45,
+  "count_basis": "证据所在文章的来源组数估计；未识别的共同消息源可能使计数偏高，不证明真正相互独立。",
+  "rules": {
+    "same_article_url": "忽略协议、www、片段和 utm_ 跟踪参数后的文章地址相同；保留不同正文版本。",
+    "same_normalized_text": "仅去空白并统一英文大小写后，至少80字符的正文相同；不改动原文。",
+    "wire_reprint": "有相同的明确通稿来源，正文至少200字符，12字符片段集合的 Jaccard 相似度不低于0.85。"
+  },
+  "groups": [
+    {
+      "origin_id": "origin:doc_001",
+      "doc_ids": [
+        "doc_001"
+      ],
+      "documents": [
+        {
+          "doc_id": "doc_001",
+          "title": "印度6月12日下午发生的空难造成客机上242人中241人遇难，仅一位英国籍乘客生还",
+          "content_url": "https://www.21jingji.com/article/20250612/herald/0b5158ef49d7d45ed40d63c7eb26a092.html"
+        }
+      ],
+      "matching_records": []
+    },
+    {
+      "origin_id": "origin:doc_002",
+      "doc_ids": [
+        "doc_002"
+      ],
+      "documents": [
+        {
+          "doc_id": "doc_002",
+          "title": "印度航空证实空难致机上241人遇难 1人生还",
+          "content_url": "https://m-dz24hour.cms.dezhoudaily.com/tianxia/p/150174.html"
+        }
+      ],
+      "matching_records": []
+    },
+    {
+      "origin_id": "origin:doc_003",
+      "doc_ids": [
+        "doc_003"
+      ],
+      "documents": [
+        {
+          "doc_id": "doc_003",
+          "title": "印度客机坠毁致机上242人、地面5名医学院学生遇难",
+          "content_url": "https://news.qq.com/rain/a/20250612A098GL00"
+        }
+      ],
+      "matching_records": []
+    },
+    {
+      "origin_id": "origin:doc_004",
+      "doc_ids": [
+        "doc_004"
+      ],
+      "documents": [
+        {
+          "doc_id": "doc_004",
+          "title": "印度客机坠毁，幸存者11A座位有何特别？",
+          "content_url": "https://www.cqcb.com/news/1339/2025-06-13/5874819.html"
+        }
+      ],
+      "matching_records": []
+    },
+    {
+      "origin_id": "origin:doc_005",
+      "doc_ids": [
+        "doc_005"
+      ],
+      "documents": [
+        {
+          "doc_id": "doc_005",
+          "title": "印度空难唯一幸存者发声",
+          "content_url": "https://www.thepaper.cn/newsDetail_forward_30977445"
+        }
+      ],
+      "matching_records": []
+    },
+    {
+      "origin_id": "origin:doc_006",
+      "doc_ids": [
+        "doc_006"
+      ],
+      "documents": [
+        {
+          "doc_id": "doc_006",
+          "title": "印度空难客机两个黑匣子均已找到，新发现驾驶舱语音记录器",
+          "content_url": "https://www.stdaily.com/web/gdxw/2025-07/17/content_371144.html"
+        }
+      ],
+      "matching_records": []
+    },
+    {
+      "origin_id": "origin:doc_007",
+      "doc_ids": [
+        "doc_007"
+      ],
+      "documents": [
+        {
+          "doc_id": "doc_007",
+          "title": "印度客机坠毁初步调查报告出炉：两个发动机燃油开关被关闭",
+          "content_url": "https://www.stdaily.com/web/gdxw/2025-07/12/content_369247.html"
+        }
+      ],
+      "matching_records": []
+    },
+    {
+      "origin_id": "origin:doc_009",
+      "doc_ids": [
+        "doc_009"
+      ],
+      "documents": [
+        {
+          "doc_id": "doc_009",
+          "title": "Air India crash report shows both engines shut down shortly after takeoff",
+          "content_url": "http://en.people.cn/n3/2025/0712/c90000-20339431.html"
+        }
+      ],
+      "matching_records": []
+    },
+    {
+      "origin_id": "origin:doc_010",
+      "doc_ids": [
+        "doc_010"
+      ],
+      "documents": [
+        {
+          "doc_id": "doc_010",
+          "title": "印度航空空难初步调查聚焦飞行员操作，燃油开关有疑似误触可能",
+          "content_url": "https://www.cls.cn/detail/2082911"
+        }
+      ],
+      "matching_records": []
+    },
+    {
+      "origin_id": "origin:doc_011",
+      "doc_ids": [
+        "doc_011"
+      ],
+      "documents": [
+        {
+          "doc_id": "doc_011",
+          "title": "印媒：印度飞行员联合会要求美媒就空难“不实报道”道歉",
+          "content_url": "https://3w.huanqiu.com/a/24d596/4NYhrylusGr"
+        }
+      ],
+      "matching_records": []
+    },
+    {
+      "origin_id": "origin:doc_012",
+      "doc_ids": [
+        "doc_012"
+      ],
+      "documents": [
+        {
+          "doc_id": "doc_012",
+          "title": "印航空难报告提及波音燃油开关，全球多家航司紧急检测",
+          "content_url": "https://news.cctv.com/2025/07/16/ARTIukFbcuddKyCbZmeelGvQ250716.shtml"
+        }
+      ],
+      "matching_records": []
+    },
+    {
+      "origin_id": "origin:doc_013",
+      "doc_ids": [
+        "doc_013"
+      ],
+      "documents": [
+        {
+          "doc_id": "doc_013",
+          "title": "Air India finds 'no problems' with fuel switches of Boeing planes",
+          "content_url": "http://www.chinadaily.com.cn/a/202507/23/WS6880c057a310ad07b5d91921.html"
+        }
+      ],
+      "matching_records": []
+    },
+    {
+      "origin_id": "origin:doc_014",
+      "doc_ids": [
+        "doc_014"
+      ],
+      "documents": [
+        {
+          "doc_id": "doc_014",
+          "title": "New details in Air India crash probe shift focus to captain",
+          "content_url": "https://www.ecns.cn/news/politics/2025-07-17/detail-ihetkhrv8785554.shtml"
+        }
+      ],
+      "matching_records": []
+    },
+    {
+      "origin_id": "origin:doc_015",
+      "doc_ids": [
+        "doc_015"
+      ],
+      "documents": [
+        {
+          "doc_id": "doc_015",
+          "title": "Probe on Air India crash that kills 260 enters final stage",
+          "content_url": "https://www.chinadaily.com.cn/a/202605/09/WS69fe45d8a310d6866eb4796f.html"
+        }
+      ],
+      "matching_records": []
+    },
+    {
+      "origin_id": "origin:doc_016",
+      "doc_ids": [
+        "doc_016"
+      ],
+      "documents": [
+        {
+          "doc_id": "doc_016",
+          "title": "印航坠机事故调查报告公布",
+          "content_url": "https://www.ccaonline.cn/anquan/aqtop/1089240.html"
+        }
+      ],
+      "matching_records": []
+    },
+    {
+      "origin_id": "origin:doc_017",
+      "doc_ids": [
+        "doc_017"
+      ],
+      "documents": [
+        {
+          "doc_id": "doc_017",
+          "title": "唯一幸存者亲述灾难瞬间！波音787首次致命空难，至少265人死亡",
+          "content_url": "https://m.gmw.cn/2025-06/13/content_1304058732.htm"
+        }
+      ],
+      "matching_records": []
+    },
+    {
+      "origin_id": "origin:doc_018",
+      "doc_ids": [
+        "doc_018",
+        "doc_037"
+      ],
+      "documents": [
+        {
+          "doc_id": "doc_018",
+          "title": "印度航空波音787坠毁，242人遇难！14年安全纪录被打破",
+          "content_url": "https://www.news.cn/world/20250613/fa77beee47134689901e4e32ea108886/c.html"
+        },
+        {
+          "doc_id": "doc_037",
+          "title": "（配音）印媒报道：印度波音787客机坠毁事故：波音787首起空难，造成了200多人遇难",
+          "content_url": "https://www.news.cn/world/20250613/fa77beee47134689901e4e32ea108886/c.html"
+        }
+      ],
+      "matching_records": [
+        {
+          "left_doc_id": "doc_018",
+          "right_doc_id": "doc_037",
+          "rules": [
+            "same_article_url",
+            "same_normalized_text"
+          ]
+        }
+      ]
+    },
+    {
+      "origin_id": "origin:doc_019",
+      "doc_ids": [
+        "doc_019"
+      ],
+      "documents": [
+        {
+          "doc_id": "doc_019",
+          "title": "波音787再出状况 首次致命空难牵动人心",
+          "content_url": "https://military.china.com/news/13004177/20250617/48480063_all.html"
+        }
+      ],
+      "matching_records": []
+    },
+    {
+      "origin_id": "origin:doc_020",
+      "doc_ids": [
+        "doc_020"
+      ],
+      "documents": [
+        {
+          "doc_id": "doc_020",
+          "title": "印度空难：坠毁的波音787",
+          "content_url": "https://www.guancha.cn/ZhangZhongZuo/2025_07_15_782961.shtml"
+        }
+      ],
+      "matching_records": []
+    },
+    {
+      "origin_id": "origin:doc_022",
+      "doc_ids": [
+        "doc_022"
+      ],
+      "documents": [
+        {
+          "doc_id": "doc_022",
+          "title": "Q&A 一文掌握印航241人罹难空难要点",
+          "content_url": "https://news.qq.com/rain/a/20250613A04KKW00"
+        }
+      ],
+      "matching_records": []
+    },
+    {
+      "origin_id": "origin:doc_023",
+      "doc_ids": [
+        "doc_023"
+      ],
+      "documents": [
+        {
+          "doc_id": "doc_023",
+          "title": "印度航空171航班空难细节曝光：年轻副驾驶问机长为何关闭燃油开关",
+          "content_url": "https://cj.sina.com.cn/articles/view/1644983660/620c756c02001o2sm"
+        }
+      ],
+      "matching_records": []
+    },
+    {
+      "origin_id": "origin:doc_024",
+      "doc_ids": [
+        "doc_024"
+      ],
+      "documents": [
+        {
+          "doc_id": "doc_024",
+          "title": "印度航空坠机黑匣子录音曝光：飞行员互问“为何切断燃油？”",
+          "content_url": "https://www.toutiao.com/article/7526012777316811316/"
+        }
+      ],
+      "matching_records": []
+    },
+    {
+      "origin_id": "origin:doc_025",
+      "doc_ids": [
+        "doc_025"
+      ],
+      "documents": [
+        {
+          "doc_id": "doc_025",
+          "title": "空难初步调查引发质疑后，印度下令检查787、737等波音机型燃油开关",
+          "content_url": "https://www.sohu.com/a/913848729_313745"
+        }
+      ],
+      "matching_records": []
+    },
+    {
+      "origin_id": "origin:doc_026",
+      "doc_ids": [
+        "doc_026",
+        "doc_029"
+      ],
+      "documents": [
+        {
+          "doc_id": "doc_026",
+          "title": "Air India's parent company to provide over $116,000 to families of victims",
+          "content_url": "https://www.airindia.com/in/en/newsroom/press-release/AI171-Statement-on-compensation-to-families.html"
+        },
+        {
+          "doc_id": "doc_029",
+          "title": "Welfare Trust set up for Air India crash victims",
+          "content_url": "https://www.airindia.com/in/en/newsroom/press-release/AI171-Statement-on-compensation-to-families.html"
+        }
+      ],
+      "matching_records": [
+        {
+          "left_doc_id": "doc_026",
+          "right_doc_id": "doc_029",
+          "rules": [
+            "same_article_url",
+            "same_normalized_text"
+          ]
+        }
+      ]
+    },
+    {
+      "origin_id": "origin:doc_027",
+      "doc_ids": [
+        "doc_027"
+      ],
+      "documents": [
+        {
+          "doc_id": "doc_027",
+          "title": "塔塔集团将向坠机遇难者家庭提供约83万人民币赔偿",
+          "content_url": "https://www.donews.com/news/detail/8/5390885.html"
+        }
+      ],
+      "matching_records": []
+    },
+    {
+      "origin_id": "origin:doc_028",
+      "doc_ids": [
+        "doc_028"
+      ],
+      "documents": [
+        {
+          "doc_id": "doc_028",
+          "title": "印度空难唯一幸存者从残骸中走出！坐在11A座位，紧邻舱门！塔塔集团为每名死者赔一千万卢比",
+          "content_url": "https://www.mrjjxw.com/articles/2025-06-13/3906738.html"
+        }
+      ],
+      "matching_records": []
+    },
+    {
+      "origin_id": "origin:doc_030",
+      "doc_ids": [
+        "doc_030"
+      ],
+      "documents": [
+        {
+          "doc_id": "doc_030",
+          "title": "印度航空坠机241人遇难，唯一幸存者回忆惊魂时刻",
+          "content_url": "https://k.sina.com.cn/article_1368589977_51930699040016hzw.html"
+        }
+      ],
+      "matching_records": []
+    },
+    {
+      "origin_id": "origin:doc_031",
+      "doc_ids": [
+        "doc_031"
+      ],
+      "documents": [
+        {
+          "doc_id": "doc_031",
+          "title": "美官员称：印航787空难初步调查结果显示两台发动机的燃油控制开关在起飞后被关闭",
+          "content_url": "https://user.guancha.cn/main/content?id=1481814"
+        }
+      ],
+      "matching_records": []
+    },
+    {
+      "origin_id": "origin:doc_032",
+      "doc_ids": [
+        "doc_032"
+      ],
+      "documents": [
+        {
+          "doc_id": "doc_032",
+          "title": "印度航空AI171航班坠毁，242人遇险救援进行中",
+          "content_url": "https://k.sina.com.cn/article_2028810631_78ed3187040013yig.html"
+        }
+      ],
+      "matching_records": []
+    },
+    {
+      "origin_id": "origin:doc_034",
+      "doc_ids": [
+        "doc_034"
+      ],
+      "documents": [
+        {
+          "doc_id": "doc_034",
+          "title": "印度航空致命空难初步调查报告：燃油系统异常与人为操作疑云",
+          "content_url": "https://word.baidu.com/spider/doc/view?doc_id=654d2f5eba23482fb4daa58da0116c175f0e1ecb&is_external=1"
+        }
+      ],
+      "matching_records": []
+    },
+    {
+      "origin_id": "origin:doc_035",
+      "doc_ids": [
+        "doc_035",
+        "doc_046"
+      ],
+      "documents": [
+        {
+          "doc_id": "doc_035",
+          "title": "印度航空171号航班空难原因",
+          "content_url": "https://news.ifeng.com/c/8l0E9ElYvMj"
+        },
+        {
+          "doc_id": "doc_046",
+          "title": "印媒开始吹风印度航空空难是波音的锅，传播阴谋论",
+          "content_url": "https://news.ifeng.com/c/8l0E9ElYvMj"
+        }
+      ],
+      "matching_records": [
+        {
+          "left_doc_id": "doc_035",
+          "right_doc_id": "doc_046",
+          "rules": [
+            "same_article_url"
+          ]
+        }
+      ]
+    },
+    {
+      "origin_id": "origin:doc_036",
+      "doc_ids": [
+        "doc_036"
+      ],
+      "documents": [
+        {
+          "doc_id": "doc_036",
+          "title": "Steeve机长：逐秒分析印度航空171航班空难事故全过程",
+          "content_url": "https://www.guancha.cn/internation/2025_07_17_783276.shtml"
+        }
+      ],
+      "matching_records": []
+    },
+    {
+      "origin_id": "origin:doc_038",
+      "doc_ids": [
+        "doc_038"
+      ],
+      "documents": [
+        {
+          "doc_id": "doc_038",
+          "title": "06.12 印度航空一架波音787客机坠毁！",
+          "content_url": "https://www.bilibili.com/video/BV1xAMczUEjN/"
+        }
+      ],
+      "matching_records": []
+    },
+    {
+      "origin_id": "origin:doc_039",
+      "doc_ids": [
+        "doc_039"
+      ],
+      "documents": [
+        {
+          "doc_id": "doc_039",
+          "title": "印度空难黑匣子录音曝光",
+          "content_url": "https://www.stdaily.com/web/gdxw/2025-06/27/content_361708.html"
+        }
+      ],
+      "matching_records": []
+    },
+    {
+      "origin_id": "origin:doc_040",
+      "doc_ids": [
+        "doc_040"
+      ],
+      "documents": [
+        {
+          "doc_id": "doc_040",
+          "title": "#印度客机坠毁在医学院宿舍# 印度客机坠毁医学院宿舍，246人遇难",
+          "content_url": "https://www.toutiao.com/w/1834735601534984/"
+        }
+      ],
+      "matching_records": []
+    },
+    {
+      "origin_id": "origin:doc_043",
+      "doc_ids": [
+        "doc_043"
+      ],
+      "documents": [
+        {
+          "doc_id": "doc_043",
+          "title": "双语新闻：印度航空坠机黑匣子录音曝光，飞行员：“你为什么要切断燃油？”",
+          "content_url": "https://www.enfamily.cn/thread-1059111-1-1.html"
+        }
+      ],
+      "matching_records": []
+    },
+    {
+      "origin_id": "origin:doc_044",
+      "doc_ids": [
+        "doc_044"
+      ],
+      "documents": [
+        {
+          "doc_id": "doc_044",
+          "title": "奇迹发生！印度空难现场发现了一名幸存者，座位号为11A",
+          "content_url": "https://m.dzplus.dzng.com/share/general/0/NEWS2493066SBBMXWGSIGFVX"
+        }
+      ],
+      "matching_records": []
+    },
+    {
+      "origin_id": "origin:doc_045",
+      "doc_ids": [
+        "doc_045"
+      ],
+      "documents": [
+        {
+          "doc_id": "doc_045",
+          "title": "印度航空空难唯一幸存者：至今无法与妻儿说话",
+          "content_url": "https://www.cqnews.net/1/detail/1435204899932037120/web/content_1435204899932037120.html"
+        }
+      ],
+      "matching_records": []
+    },
+    {
+      "origin_id": "origin:doc_047",
+      "doc_ids": [
+        "doc_047"
+      ],
+      "documents": [
+        {
+          "doc_id": "doc_047",
+          "title": "印度坠机事故的背后，为何又是波音？",
+          "content_url": "https://www.sohu.com/a/936942416_122407830"
+        }
+      ],
+      "matching_records": []
+    },
+    {
+      "origin_id": "origin:doc_048",
+      "doc_ids": [
+        "doc_048"
+      ],
+      "documents": [
+        {
+          "doc_id": "doc_048",
+          "title": "印度重大空难事故，为什么又是波音？都是美国制造业空心化惹的祸？",
+          "content_url": "https://m.thepaper.cn/baijiahao_30978272"
+        }
+      ],
+      "matching_records": []
+    },
+    {
+      "origin_id": "origin:doc_049",
+      "doc_ids": [
+        "doc_049"
+      ],
+      "documents": [
+        {
+          "doc_id": "doc_049",
+          "title": "印度空难调查：机长故意操作致空难，91岁父痛心不已",
+          "content_url": "https://www.163.com/dy/article/KM9J5EO50556C7JA.html"
+        }
+      ],
+      "matching_records": []
+    },
+    {
+      "origin_id": "origin:doc_050",
+      "doc_ids": [
+        "doc_050"
+      ],
+      "documents": [
+        {
+          "doc_id": "doc_050",
+          "title": "印度客机坠毁初步调查结果曝光：燃油开关疑似误触关闭",
+          "content_url": "https://kan.china.com/article/5516042.html"
+        }
+      ],
+      "matching_records": []
+    },
+    {
+      "origin_id": "origin:doc_051",
+      "doc_ids": [
+        "doc_051"
+      ],
+      "documents": [
+        {
+          "doc_id": "doc_051",
+          "title": "印航失事客机燃油开关的锁定功能，美印争执不休",
+          "content_url": "https://www.shobserver.com/news/detail?id=946533"
+        }
+      ],
+      "matching_records": []
+    },
+    {
+      "origin_id": "origin:doc_052",
+      "doc_ids": [
+        "doc_052"
+      ],
+      "documents": [
+        {
+          "doc_id": "doc_052",
+          "title": "印度航空要求空难遇难者家属永久放弃诉讼权，以换取76257元赔偿",
+          "content_url": "https://www.ctdsb.net/c1679_202511/2583576.html"
+        }
+      ],
+      "matching_records": []
+    },
+    {
+      "origin_id": "origin:doc_053",
+      "doc_ids": [
+        "doc_053"
+      ],
+      "documents": [
+        {
+          "doc_id": "doc_053",
+          "title": "印度坠机事故调查公布后，多国航企紧急检测波音飞机燃油开关锁",
+          "content_url": "https://k.sina.com.cn/article_5328858693_13d9fee450200260qy.html"
+        }
+      ],
+      "matching_records": []
+    },
+    {
+      "origin_id": "origin:doc_054",
+      "doc_ids": [
+        "doc_054"
+      ],
+      "documents": [
+        {
+          "doc_id": "doc_054",
+          "title": "塔塔集团将向坠机遇难者的家庭提供1000万印度卢比",
+          "content_url": "https://www.sohu.com/a/903956702_122157663?scm=10001.8085_13-8085_13.0.0-0-0-0-0.0"
+        }
+      ],
+      "matching_records": []
+    },
+    {
+      "origin_id": "origin:doc_055",
+      "doc_ids": [
+        "doc_055"
+      ],
+      "documents": [
+        {
+          "doc_id": "doc_055",
+          "title": "印度空难有一幸存者，专家：坐在这里还能活下来，令人惊讶",
+          "content_url": "https://m.bjnews.com.cn/detail/1749817478129411.html"
+        }
+      ],
+      "matching_records": []
+    },
+    {
+      "origin_id": "origin:doc_056",
+      "doc_ids": [
+        "doc_056"
+      ],
+      "documents": [
+        {
+          "doc_id": "doc_056",
+          "title": "Air India crash report shows both engines shut down shortly after takeoff",
+          "content_url": "https://www.chinadaily.com.cn/a/202507/12/WS6871bd6ba31000e9a573b9fe.html"
+        }
+      ],
+      "matching_records": []
+    },
+    {
+      "origin_id": "origin:doc_057",
+      "doc_ids": [
+        "doc_057"
+      ],
+      "documents": [
+        {
+          "doc_id": "doc_057",
+          "title": "Families of Victims in Air India 171 Crash Sue Boeing, Honeywell",
+          "content_url": "https://apnews.com/press-release/business-wire/families-of-victims-in-air-india-171-crash-sue-boeing-honeywell-d99a2ba47b3646bfa54f95e56c8ef795"
+        }
+      ],
+      "matching_records": []
+    }
+  ],
+  "evidence_sources": [
+    {
+      "evidence_index": 0,
+      "doc_id": "doc_001",
+      "para_id": "doc_001#p3",
+      "origin_id": "origin:doc_001"
+    },
+    {
+      "evidence_index": 1,
+      "doc_id": "doc_001",
+      "para_id": "doc_001#p3",
+      "origin_id": "origin:doc_001"
+    },
+    {
+      "evidence_index": 2,
+      "doc_id": "doc_001",
+      "para_id": "doc_001#p3",
+      "origin_id": "origin:doc_001"
+    },
+    {
+      "evidence_index": 3,
+      "doc_id": "doc_001",
+      "para_id": "doc_001#p3",
+      "origin_id": "origin:doc_001"
+    },
+    {
+      "evidence_index": 4,
+      "doc_id": "doc_001",
+      "para_id": "doc_001#p3",
+      "origin_id": "origin:doc_001"
+    },
+    {
+      "evidence_index": 5,
+      "doc_id": "doc_001",
+      "para_id": "doc_001#p3",
+      "origin_id": "origin:doc_001"
+    },
+    {
+      "evidence_index": 6,
+      "doc_id": "doc_001",
+      "para_id": "doc_001#p3",
+      "origin_id": "origin:doc_001"
+    },
+    {
+      "evidence_index": 7,
+      "doc_id": "doc_001",
+      "para_id": "doc_001#p3",
+      "origin_id": "origin:doc_001"
+    },
+    {
+      "evidence_index": 8,
+      "doc_id": "doc_001",
+      "para_id": "doc_001#p3",
+      "origin_id": "origin:doc_001"
+    },
+    {
+      "evidence_index": 9,
+      "doc_id": "doc_001",
+      "para_id": "doc_001#p3",
+      "origin_id": "origin:doc_001"
+    },
+    {
+      "evidence_index": 10,
+      "doc_id": "doc_002",
+      "para_id": "doc_002#p3",
+      "origin_id": "origin:doc_002"
+    },
+    {
+      "evidence_index": 11,
+      "doc_id": "doc_002",
+      "para_id": "doc_002#p5",
+      "origin_id": "origin:doc_002"
+    },
+    {
+      "evidence_index": 12,
+      "doc_id": "doc_002",
+      "para_id": "doc_002#p8",
+      "origin_id": "origin:doc_002"
+    },
+    {
+      "evidence_index": 13,
+      "doc_id": "doc_002",
+      "para_id": "doc_002#p22",
+      "origin_id": "origin:doc_002"
+    },
+    {
+      "evidence_index": 14,
+      "doc_id": "doc_002",
+      "para_id": "doc_002#p46",
+      "origin_id": "origin:doc_002"
+    },
+    {
+      "evidence_index": 15,
+      "doc_id": "doc_002",
+      "para_id": "doc_002#p51",
+      "origin_id": "origin:doc_002"
+    },
+    {
+      "evidence_index": 16,
+      "doc_id": "doc_002",
+      "para_id": "doc_002#p54",
+      "origin_id": "origin:doc_002"
+    },
+    {
+      "evidence_index": 17,
+      "doc_id": "doc_002",
+      "para_id": "doc_002#p57",
+      "origin_id": "origin:doc_002"
+    },
+    {
+      "evidence_index": 18,
+      "doc_id": "doc_002",
+      "para_id": "doc_002#p68",
+      "origin_id": "origin:doc_002"
+    },
+    {
+      "evidence_index": 19,
+      "doc_id": "doc_002",
+      "para_id": "doc_002#p72",
+      "origin_id": "origin:doc_002"
+    },
+    {
+      "evidence_index": 20,
+      "doc_id": "doc_002",
+      "para_id": "doc_002#p75",
+      "origin_id": "origin:doc_002"
+    },
+    {
+      "evidence_index": 21,
+      "doc_id": "doc_002",
+      "para_id": "doc_002#p86",
+      "origin_id": "origin:doc_002"
+    },
+    {
+      "evidence_index": 22,
+      "doc_id": "doc_003",
+      "para_id": "doc_003#p1",
+      "origin_id": "origin:doc_003"
+    },
+    {
+      "evidence_index": 23,
+      "doc_id": "doc_003",
+      "para_id": "doc_003#p1",
+      "origin_id": "origin:doc_003"
+    },
+    {
+      "evidence_index": 24,
+      "doc_id": "doc_004",
+      "para_id": "doc_004#p1",
+      "origin_id": "origin:doc_004"
+    },
+    {
+      "evidence_index": 25,
+      "doc_id": "doc_005",
+      "para_id": "doc_005#p2",
+      "origin_id": "origin:doc_005"
+    },
+    {
+      "evidence_index": 26,
+      "doc_id": "doc_005",
+      "para_id": "doc_005#p3",
+      "origin_id": "origin:doc_005"
+    },
+    {
+      "evidence_index": 27,
+      "doc_id": "doc_005",
+      "para_id": "doc_005#p10",
+      "origin_id": "origin:doc_005"
+    },
+    {
+      "evidence_index": 28,
+      "doc_id": "doc_006",
+      "para_id": "doc_006#p3",
+      "origin_id": "origin:doc_006"
+    },
+    {
+      "evidence_index": 29,
+      "doc_id": "doc_006",
+      "para_id": "doc_006#p3",
+      "origin_id": "origin:doc_006"
+    },
+    {
+      "evidence_index": 30,
+      "doc_id": "doc_006",
+      "para_id": "doc_006#p3",
+      "origin_id": "origin:doc_006"
+    },
+    {
+      "evidence_index": 31,
+      "doc_id": "doc_006",
+      "para_id": "doc_006#p3",
+      "origin_id": "origin:doc_006"
+    },
+    {
+      "evidence_index": 32,
+      "doc_id": "doc_006",
+      "para_id": "doc_006#p3",
+      "origin_id": "origin:doc_006"
+    },
+    {
+      "evidence_index": 33,
+      "doc_id": "doc_006",
+      "para_id": "doc_006#p3",
+      "origin_id": "origin:doc_006"
+    },
+    {
+      "evidence_index": 34,
+      "doc_id": "doc_007",
+      "para_id": "doc_007#p3",
+      "origin_id": "origin:doc_007"
+    },
+    {
+      "evidence_index": 35,
+      "doc_id": "doc_007",
+      "para_id": "doc_007#p3",
+      "origin_id": "origin:doc_007"
+    },
+    {
+      "evidence_index": 36,
+      "doc_id": "doc_007",
+      "para_id": "doc_007#p3",
+      "origin_id": "origin:doc_007"
+    },
+    {
+      "evidence_index": 37,
+      "doc_id": "doc_007",
+      "para_id": "doc_007#p3",
+      "origin_id": "origin:doc_007"
+    },
+    {
+      "evidence_index": 38,
+      "doc_id": "doc_007",
+      "para_id": "doc_007#p3",
+      "origin_id": "origin:doc_007"
+    },
+    {
+      "evidence_index": 39,
+      "doc_id": "doc_007",
+      "para_id": "doc_007#p3",
+      "origin_id": "origin:doc_007"
+    },
+    {
+      "evidence_index": 40,
+      "doc_id": "doc_007",
+      "para_id": "doc_007#p3",
+      "origin_id": "origin:doc_007"
+    },
+    {
+      "evidence_index": 41,
+      "doc_id": "doc_007",
+      "para_id": "doc_007#p3",
+      "origin_id": "origin:doc_007"
+    },
+    {
+      "evidence_index": 42,
+      "doc_id": "doc_009",
+      "para_id": "doc_009#p9",
+      "origin_id": "origin:doc_009"
+    },
+    {
+      "evidence_index": 43,
+      "doc_id": "doc_009",
+      "para_id": "doc_009#p9",
+      "origin_id": "origin:doc_009"
+    },
+    {
+      "evidence_index": 44,
+      "doc_id": "doc_009",
+      "para_id": "doc_009#p14",
+      "origin_id": "origin:doc_009"
+    },
+    {
+      "evidence_index": 45,
+      "doc_id": "doc_010",
+      "para_id": "doc_010#p1",
+      "origin_id": "origin:doc_010"
+    },
+    {
+      "evidence_index": 46,
+      "doc_id": "doc_010",
+      "para_id": "doc_010#p3",
+      "origin_id": "origin:doc_010"
+    },
+    {
+      "evidence_index": 47,
+      "doc_id": "doc_010",
+      "para_id": "doc_010#p4",
+      "origin_id": "origin:doc_010"
+    },
+    {
+      "evidence_index": 48,
+      "doc_id": "doc_010",
+      "para_id": "doc_010#p5",
+      "origin_id": "origin:doc_010"
+    },
+    {
+      "evidence_index": 49,
+      "doc_id": "doc_010",
+      "para_id": "doc_010#p7",
+      "origin_id": "origin:doc_010"
+    },
+    {
+      "evidence_index": 50,
+      "doc_id": "doc_010",
+      "para_id": "doc_010#p7",
+      "origin_id": "origin:doc_010"
+    },
+    {
+      "evidence_index": 51,
+      "doc_id": "doc_010",
+      "para_id": "doc_010#p9",
+      "origin_id": "origin:doc_010"
+    },
+    {
+      "evidence_index": 52,
+      "doc_id": "doc_010",
+      "para_id": "doc_010#p11",
+      "origin_id": "origin:doc_010"
+    },
+    {
+      "evidence_index": 53,
+      "doc_id": "doc_011",
+      "para_id": "doc_011#p2",
+      "origin_id": "origin:doc_011"
+    },
+    {
+      "evidence_index": 54,
+      "doc_id": "doc_011",
+      "para_id": "doc_011#p2",
+      "origin_id": "origin:doc_011"
+    },
+    {
+      "evidence_index": 55,
+      "doc_id": "doc_011",
+      "para_id": "doc_011#p2",
+      "origin_id": "origin:doc_011"
+    },
+    {
+      "evidence_index": 56,
+      "doc_id": "doc_011",
+      "para_id": "doc_011#p2",
+      "origin_id": "origin:doc_011"
+    },
+    {
+      "evidence_index": 57,
+      "doc_id": "doc_011",
+      "para_id": "doc_011#p2",
+      "origin_id": "origin:doc_011"
+    },
+    {
+      "evidence_index": 58,
+      "doc_id": "doc_011",
+      "para_id": "doc_011#p2",
+      "origin_id": "origin:doc_011"
+    },
+    {
+      "evidence_index": 59,
+      "doc_id": "doc_012",
+      "para_id": "doc_012#p8",
+      "origin_id": "origin:doc_012"
+    },
+    {
+      "evidence_index": 60,
+      "doc_id": "doc_012",
+      "para_id": "doc_012#p8",
+      "origin_id": "origin:doc_012"
+    },
+    {
+      "evidence_index": 61,
+      "doc_id": "doc_012",
+      "para_id": "doc_012#p8",
+      "origin_id": "origin:doc_012"
+    },
+    {
+      "evidence_index": 62,
+      "doc_id": "doc_012",
+      "para_id": "doc_012#p8",
+      "origin_id": "origin:doc_012"
+    },
+    {
+      "evidence_index": 63,
+      "doc_id": "doc_013",
+      "para_id": "doc_013#p1",
+      "origin_id": "origin:doc_013"
+    },
+    {
+      "evidence_index": 64,
+      "doc_id": "doc_013",
+      "para_id": "doc_013#p2",
+      "origin_id": "origin:doc_013"
+    },
+    {
+      "evidence_index": 65,
+      "doc_id": "doc_013",
+      "para_id": "doc_013#p5",
+      "origin_id": "origin:doc_013"
+    },
+    {
+      "evidence_index": 66,
+      "doc_id": "doc_013",
+      "para_id": "doc_013#p6",
+      "origin_id": "origin:doc_013"
+    },
+    {
+      "evidence_index": 67,
+      "doc_id": "doc_013",
+      "para_id": "doc_013#p8",
+      "origin_id": "origin:doc_013"
+    },
+    {
+      "evidence_index": 68,
+      "doc_id": "doc_014",
+      "para_id": "doc_014#p1",
+      "origin_id": "origin:doc_014"
+    },
+    {
+      "evidence_index": 69,
+      "doc_id": "doc_014",
+      "para_id": "doc_014#p2",
+      "origin_id": "origin:doc_014"
+    },
+    {
+      "evidence_index": 70,
+      "doc_id": "doc_004",
+      "para_id": "doc_004#p3",
+      "origin_id": "origin:doc_004"
+    },
+    {
+      "evidence_index": 71,
+      "doc_id": "doc_004",
+      "para_id": "doc_004#p5",
+      "origin_id": "origin:doc_004"
+    },
+    {
+      "evidence_index": 72,
+      "doc_id": "doc_004",
+      "para_id": "doc_004#p5",
+      "origin_id": "origin:doc_004"
+    },
+    {
+      "evidence_index": 73,
+      "doc_id": "doc_004",
+      "para_id": "doc_004#p6",
+      "origin_id": "origin:doc_004"
+    },
+    {
+      "evidence_index": 74,
+      "doc_id": "doc_004",
+      "para_id": "doc_004#p8",
+      "origin_id": "origin:doc_004"
+    },
+    {
+      "evidence_index": 75,
+      "doc_id": "doc_005",
+      "para_id": "doc_005#p4",
+      "origin_id": "origin:doc_005"
+    },
+    {
+      "evidence_index": 76,
+      "doc_id": "doc_005",
+      "para_id": "doc_005#p6",
+      "origin_id": "origin:doc_005"
+    },
+    {
+      "evidence_index": 77,
+      "doc_id": "doc_015",
+      "para_id": "doc_015#p1",
+      "origin_id": "origin:doc_015"
+    },
+    {
+      "evidence_index": 78,
+      "doc_id": "doc_015",
+      "para_id": "doc_015#p5",
+      "origin_id": "origin:doc_015"
+    },
+    {
+      "evidence_index": 79,
+      "doc_id": "doc_015",
+      "para_id": "doc_015#p5",
+      "origin_id": "origin:doc_015"
+    },
+    {
+      "evidence_index": 80,
+      "doc_id": "doc_016",
+      "para_id": "doc_016#p21",
+      "origin_id": "origin:doc_016"
+    },
+    {
+      "evidence_index": 81,
+      "doc_id": "doc_017",
+      "para_id": "doc_017#p4",
+      "origin_id": "origin:doc_017"
+    },
+    {
+      "evidence_index": 82,
+      "doc_id": "doc_017",
+      "para_id": "doc_017#p5",
+      "origin_id": "origin:doc_017"
+    },
+    {
+      "evidence_index": 83,
+      "doc_id": "doc_018",
+      "para_id": "doc_018#p20",
+      "origin_id": "origin:doc_018"
+    },
+    {
+      "evidence_index": 84,
+      "doc_id": "doc_018",
+      "para_id": "doc_018#p21",
+      "origin_id": "origin:doc_018"
+    },
+    {
+      "evidence_index": 85,
+      "doc_id": "doc_018",
+      "para_id": "doc_018#p22",
+      "origin_id": "origin:doc_018"
+    },
+    {
+      "evidence_index": 86,
+      "doc_id": "doc_019",
+      "para_id": "doc_019#p15",
+      "origin_id": "origin:doc_019"
+    },
+    {
+      "evidence_index": 87,
+      "doc_id": "doc_020",
+      "para_id": "doc_020#p17",
+      "origin_id": "origin:doc_020"
+    },
+    {
+      "evidence_index": 88,
+      "doc_id": "doc_020",
+      "para_id": "doc_020#p17",
+      "origin_id": "origin:doc_020"
+    },
+    {
+      "evidence_index": 89,
+      "doc_id": "doc_022",
+      "para_id": "doc_022#p1",
+      "origin_id": "origin:doc_022"
+    },
+    {
+      "evidence_index": 90,
+      "doc_id": "doc_024",
+      "para_id": "doc_024#p1",
+      "origin_id": "origin:doc_024"
+    },
+    {
+      "evidence_index": 91,
+      "doc_id": "doc_025",
+      "para_id": "doc_025#p2",
+      "origin_id": "origin:doc_025"
+    },
+    {
+      "evidence_index": 92,
+      "doc_id": "doc_026",
+      "para_id": "doc_026#p5",
+      "origin_id": "origin:doc_026"
+    },
+    {
+      "evidence_index": 93,
+      "doc_id": "doc_026",
+      "para_id": "doc_026#p5",
+      "origin_id": "origin:doc_026"
+    },
+    {
+      "evidence_index": 94,
+      "doc_id": "doc_016",
+      "para_id": "doc_016#p10",
+      "origin_id": "origin:doc_016"
+    },
+    {
+      "evidence_index": 95,
+      "doc_id": "doc_016",
+      "para_id": "doc_016#p11",
+      "origin_id": "origin:doc_016"
+    },
+    {
+      "evidence_index": 96,
+      "doc_id": "doc_016",
+      "para_id": "doc_016#p17",
+      "origin_id": "origin:doc_016"
+    },
+    {
+      "evidence_index": 97,
+      "doc_id": "doc_016",
+      "para_id": "doc_016#p19",
+      "origin_id": "origin:doc_016"
+    },
+    {
+      "evidence_index": 98,
+      "doc_id": "doc_016",
+      "para_id": "doc_016#p20",
+      "origin_id": "origin:doc_016"
+    },
+    {
+      "evidence_index": 99,
+      "doc_id": "doc_020",
+      "para_id": "doc_020#p30",
+      "origin_id": "origin:doc_020"
+    },
+    {
+      "evidence_index": 100,
+      "doc_id": "doc_020",
+      "para_id": "doc_020#p34",
+      "origin_id": "origin:doc_020"
+    },
+    {
+      "evidence_index": 101,
+      "doc_id": "doc_020",
+      "para_id": "doc_020#p35",
+      "origin_id": "origin:doc_020"
+    },
+    {
+      "evidence_index": 102,
+      "doc_id": "doc_020",
+      "para_id": "doc_020#p37",
+      "origin_id": "origin:doc_020"
+    },
+    {
+      "evidence_index": 103,
+      "doc_id": "doc_024",
+      "para_id": "doc_024#p1",
+      "origin_id": "origin:doc_024"
+    },
+    {
+      "evidence_index": 104,
+      "doc_id": "doc_024",
+      "para_id": "doc_024#p1",
+      "origin_id": "origin:doc_024"
+    },
+    {
+      "evidence_index": 105,
+      "doc_id": "doc_025",
+      "para_id": "doc_025#p3",
+      "origin_id": "origin:doc_025"
+    },
+    {
+      "evidence_index": 106,
+      "doc_id": "doc_025",
+      "para_id": "doc_025#p7",
+      "origin_id": "origin:doc_025"
+    },
+    {
+      "evidence_index": 107,
+      "doc_id": "doc_025",
+      "para_id": "doc_025#p8",
+      "origin_id": "origin:doc_025"
+    },
+    {
+      "evidence_index": 108,
+      "doc_id": "doc_017",
+      "para_id": "doc_017#p13",
+      "origin_id": "origin:doc_017"
+    },
+    {
+      "evidence_index": 109,
+      "doc_id": "doc_017",
+      "para_id": "doc_017#p15",
+      "origin_id": "origin:doc_017"
+    },
+    {
+      "evidence_index": 110,
+      "doc_id": "doc_017",
+      "para_id": "doc_017#p16",
+      "origin_id": "origin:doc_017"
+    },
+    {
+      "evidence_index": 111,
+      "doc_id": "doc_028",
+      "para_id": "doc_028#p10",
+      "origin_id": "origin:doc_028"
+    },
+    {
+      "evidence_index": 112,
+      "doc_id": "doc_028",
+      "para_id": "doc_028#p10",
+      "origin_id": "origin:doc_028"
+    },
+    {
+      "evidence_index": 113,
+      "doc_id": "doc_030",
+      "para_id": "doc_030#p2",
+      "origin_id": "origin:doc_030"
+    },
+    {
+      "evidence_index": 114,
+      "doc_id": "doc_030",
+      "para_id": "doc_030#p2",
+      "origin_id": "origin:doc_030"
+    },
+    {
+      "evidence_index": 115,
+      "doc_id": "doc_031",
+      "para_id": "doc_031#p6",
+      "origin_id": "origin:doc_031"
+    },
+    {
+      "evidence_index": 116,
+      "doc_id": "doc_034",
+      "para_id": "doc_034#p4",
+      "origin_id": "origin:doc_034"
+    },
+    {
+      "evidence_index": 117,
+      "doc_id": "doc_035",
+      "para_id": "doc_035#p4",
+      "origin_id": "origin:doc_035"
+    },
+    {
+      "evidence_index": 118,
+      "doc_id": "doc_031",
+      "para_id": "doc_031#p6",
+      "origin_id": "origin:doc_031"
+    },
+    {
+      "evidence_index": 119,
+      "doc_id": "doc_031",
+      "para_id": "doc_031#p6",
+      "origin_id": "origin:doc_031"
+    },
+    {
+      "evidence_index": 120,
+      "doc_id": "doc_031",
+      "para_id": "doc_031#p6",
+      "origin_id": "origin:doc_031"
+    },
+    {
+      "evidence_index": 121,
+      "doc_id": "doc_031",
+      "para_id": "doc_031#p6",
+      "origin_id": "origin:doc_031"
+    },
+    {
+      "evidence_index": 122,
+      "doc_id": "doc_034",
+      "para_id": "doc_034#p8",
+      "origin_id": "origin:doc_034"
+    },
+    {
+      "evidence_index": 123,
+      "doc_id": "doc_034",
+      "para_id": "doc_034#p11",
+      "origin_id": "origin:doc_034"
+    },
+    {
+      "evidence_index": 124,
+      "doc_id": "doc_034",
+      "para_id": "doc_034#p20",
+      "origin_id": "origin:doc_034"
+    },
+    {
+      "evidence_index": 125,
+      "doc_id": "doc_028",
+      "para_id": "doc_028#p10",
+      "origin_id": "origin:doc_028"
+    },
+    {
+      "evidence_index": 126,
+      "doc_id": "doc_028",
+      "para_id": "doc_028#p10",
+      "origin_id": "origin:doc_028"
+    },
+    {
+      "evidence_index": 127,
+      "doc_id": "doc_028",
+      "para_id": "doc_028#p10",
+      "origin_id": "origin:doc_028"
+    },
+    {
+      "evidence_index": 128,
+      "doc_id": "doc_030",
+      "para_id": "doc_030#p2",
+      "origin_id": "origin:doc_030"
+    },
+    {
+      "evidence_index": 129,
+      "doc_id": "doc_036",
+      "para_id": "doc_036#p19",
+      "origin_id": "origin:doc_036"
+    },
+    {
+      "evidence_index": 130,
+      "doc_id": "doc_037",
+      "para_id": "doc_037#p21",
+      "origin_id": "origin:doc_018"
+    },
+    {
+      "evidence_index": 131,
+      "doc_id": "doc_037",
+      "para_id": "doc_037#p22",
+      "origin_id": "origin:doc_018"
+    },
+    {
+      "evidence_index": 132,
+      "doc_id": "doc_039",
+      "para_id": "doc_039#p4",
+      "origin_id": "origin:doc_039"
+    },
+    {
+      "evidence_index": 133,
+      "doc_id": "doc_040",
+      "para_id": "doc_040#p1",
+      "origin_id": "origin:doc_040"
+    },
+    {
+      "evidence_index": 134,
+      "doc_id": "doc_040",
+      "para_id": "doc_040#p1",
+      "origin_id": "origin:doc_040"
+    },
+    {
+      "evidence_index": 135,
+      "doc_id": "doc_045",
+      "para_id": "doc_045#p3",
+      "origin_id": "origin:doc_045"
+    },
+    {
+      "evidence_index": 136,
+      "doc_id": "doc_046",
+      "para_id": "doc_046#p4",
+      "origin_id": "origin:doc_035"
+    },
+    {
+      "evidence_index": 137,
+      "doc_id": "doc_038",
+      "para_id": "doc_038#p59",
+      "origin_id": "origin:doc_038"
+    },
+    {
+      "evidence_index": 138,
+      "doc_id": "doc_035",
+      "para_id": "doc_035#p14",
+      "origin_id": "origin:doc_035"
+    },
+    {
+      "evidence_index": 139,
+      "doc_id": "doc_035",
+      "para_id": "doc_035#p15",
+      "origin_id": "origin:doc_035"
+    },
+    {
+      "evidence_index": 140,
+      "doc_id": "doc_035",
+      "para_id": "doc_035#p17",
+      "origin_id": "origin:doc_035"
+    },
+    {
+      "evidence_index": 141,
+      "doc_id": "doc_035",
+      "para_id": "doc_035#p22",
+      "origin_id": "origin:doc_035"
+    },
+    {
+      "evidence_index": 142,
+      "doc_id": "doc_035",
+      "para_id": "doc_035#p23",
+      "origin_id": "origin:doc_035"
+    },
+    {
+      "evidence_index": 143,
+      "doc_id": "doc_035",
+      "para_id": "doc_035#p24",
+      "origin_id": "origin:doc_035"
+    },
+    {
+      "evidence_index": 144,
+      "doc_id": "doc_036",
+      "para_id": "doc_036#p14",
+      "origin_id": "origin:doc_036"
+    },
+    {
+      "evidence_index": 145,
+      "doc_id": "doc_036",
+      "para_id": "doc_036#p16",
+      "origin_id": "origin:doc_036"
+    },
+    {
+      "evidence_index": 146,
+      "doc_id": "doc_036",
+      "para_id": "doc_036#p18",
+      "origin_id": "origin:doc_036"
+    },
+    {
+      "evidence_index": 147,
+      "doc_id": "doc_036",
+      "para_id": "doc_036#p18",
+      "origin_id": "origin:doc_036"
+    },
+    {
+      "evidence_index": 148,
+      "doc_id": "doc_036",
+      "para_id": "doc_036#p22",
+      "origin_id": "origin:doc_036"
+    },
+    {
+      "evidence_index": 149,
+      "doc_id": "doc_043",
+      "para_id": "doc_043#p1",
+      "origin_id": "origin:doc_043"
+    },
+    {
+      "evidence_index": 150,
+      "doc_id": "doc_043",
+      "para_id": "doc_043#p7",
+      "origin_id": "origin:doc_043"
+    },
+    {
+      "evidence_index": 151,
+      "doc_id": "doc_043",
+      "para_id": "doc_043#p11",
+      "origin_id": "origin:doc_043"
+    },
+    {
+      "evidence_index": 152,
+      "doc_id": "doc_043",
+      "para_id": "doc_043#p22",
+      "origin_id": "origin:doc_043"
+    },
+    {
+      "evidence_index": 153,
+      "doc_id": "doc_043",
+      "para_id": "doc_043#p36",
+      "origin_id": "origin:doc_043"
+    },
+    {
+      "evidence_index": 154,
+      "doc_id": "doc_043",
+      "para_id": "doc_043#p37",
+      "origin_id": "origin:doc_043"
+    },
+    {
+      "evidence_index": 155,
+      "doc_id": "doc_046",
+      "para_id": "doc_046#p2",
+      "origin_id": "origin:doc_035"
+    },
+    {
+      "evidence_index": 156,
+      "doc_id": "doc_044",
+      "para_id": "doc_044#p16",
+      "origin_id": "origin:doc_044"
+    },
+    {
+      "evidence_index": 157,
+      "doc_id": "doc_044",
+      "para_id": "doc_044#p19",
+      "origin_id": "origin:doc_044"
+    },
+    {
+      "evidence_index": 158,
+      "doc_id": "doc_044",
+      "para_id": "doc_044#p19",
+      "origin_id": "origin:doc_044"
+    },
+    {
+      "evidence_index": 159,
+      "doc_id": "doc_044",
+      "para_id": "doc_044#p22",
+      "origin_id": "origin:doc_044"
+    },
+    {
+      "evidence_index": 160,
+      "doc_id": "doc_044",
+      "para_id": "doc_044#p25",
+      "origin_id": "origin:doc_044"
+    },
+    {
+      "evidence_index": 161,
+      "doc_id": "doc_044",
+      "para_id": "doc_044#p18",
+      "origin_id": "origin:doc_044"
+    },
+    {
+      "evidence_index": 162,
+      "doc_id": "doc_047",
+      "para_id": "doc_047#p7",
+      "origin_id": "origin:doc_047"
+    },
+    {
+      "evidence_index": 163,
+      "doc_id": "doc_047",
+      "para_id": "doc_047#p8",
+      "origin_id": "origin:doc_047"
+    },
+    {
+      "evidence_index": 164,
+      "doc_id": "doc_047",
+      "para_id": "doc_047#p9",
+      "origin_id": "origin:doc_047"
+    },
+    {
+      "evidence_index": 165,
+      "doc_id": "doc_047",
+      "para_id": "doc_047#p9",
+      "origin_id": "origin:doc_047"
+    },
+    {
+      "evidence_index": 166,
+      "doc_id": "doc_048",
+      "para_id": "doc_048#p1",
+      "origin_id": "origin:doc_048"
+    },
+    {
+      "evidence_index": 167,
+      "doc_id": "doc_048",
+      "para_id": "doc_048#p1",
+      "origin_id": "origin:doc_048"
+    },
+    {
+      "evidence_index": 168,
+      "doc_id": "doc_049",
+      "para_id": "doc_049#p1",
+      "origin_id": "origin:doc_049"
+    },
+    {
+      "evidence_index": 169,
+      "doc_id": "doc_049",
+      "para_id": "doc_049#p1",
+      "origin_id": "origin:doc_049"
+    },
+    {
+      "evidence_index": 170,
+      "doc_id": "doc_050",
+      "para_id": "doc_050#p1",
+      "origin_id": "origin:doc_050"
+    },
+    {
+      "evidence_index": 171,
+      "doc_id": "doc_053",
+      "para_id": "doc_053#p1",
+      "origin_id": "origin:doc_053"
+    },
+    {
+      "evidence_index": 172,
+      "doc_id": "doc_056",
+      "para_id": "doc_056#p8",
+      "origin_id": "origin:doc_056"
+    },
+    {
+      "evidence_index": 173,
+      "doc_id": "doc_057",
+      "para_id": "doc_057#p2",
+      "origin_id": "origin:doc_057"
+    },
+    {
+      "evidence_index": 174,
+      "doc_id": "doc_046",
+      "para_id": "doc_046#p14",
+      "origin_id": "origin:doc_035"
+    },
+    {
+      "evidence_index": 175,
+      "doc_id": "doc_046",
+      "para_id": "doc_046#p15",
+      "origin_id": "origin:doc_035"
+    },
+    {
+      "evidence_index": 176,
+      "doc_id": "doc_046",
+      "para_id": "doc_046#p17",
+      "origin_id": "origin:doc_035"
+    },
+    {
+      "evidence_index": 177,
+      "doc_id": "doc_046",
+      "para_id": "doc_046#p22",
+      "origin_id": "origin:doc_035"
+    },
+    {
+      "evidence_index": 178,
+      "doc_id": "doc_046",
+      "para_id": "doc_046#p23",
+      "origin_id": "origin:doc_035"
+    },
+    {
+      "evidence_index": 179,
+      "doc_id": "doc_047",
+      "para_id": "doc_047#p3",
+      "origin_id": "origin:doc_047"
+    },
+    {
+      "evidence_index": 180,
+      "doc_id": "doc_047",
+      "para_id": "doc_047#p23",
+      "origin_id": "origin:doc_047"
+    },
+    {
+      "evidence_index": 181,
+      "doc_id": "doc_049",
+      "para_id": "doc_049#p1",
+      "origin_id": "origin:doc_049"
+    },
+    {
+      "evidence_index": 182,
+      "doc_id": "doc_049",
+      "para_id": "doc_049#p1",
+      "origin_id": "origin:doc_049"
+    },
+    {
+      "evidence_index": 183,
+      "doc_id": "doc_049",
+      "para_id": "doc_049#p1",
+      "origin_id": "origin:doc_049"
+    },
+    {
+      "evidence_index": 184,
+      "doc_id": "doc_049",
+      "para_id": "doc_049#p1",
+      "origin_id": "origin:doc_049"
+    },
+    {
+      "evidence_index": 185,
+      "doc_id": "doc_050",
+      "para_id": "doc_050#p3",
+      "origin_id": "origin:doc_050"
+    },
+    {
+      "evidence_index": 186,
+      "doc_id": "doc_050",
+      "para_id": "doc_050#p3",
+      "origin_id": "origin:doc_050"
+    },
+    {
+      "evidence_index": 187,
+      "doc_id": "doc_051",
+      "para_id": "doc_051#p6",
+      "origin_id": "origin:doc_051"
+    },
+    {
+      "evidence_index": 188,
+      "doc_id": "doc_051",
+      "para_id": "doc_051#p6",
+      "origin_id": "origin:doc_051"
+    },
+    {
+      "evidence_index": 189,
+      "doc_id": "doc_051",
+      "para_id": "doc_051#p24",
+      "origin_id": "origin:doc_051"
+    },
+    {
+      "evidence_index": 190,
+      "doc_id": "doc_053",
+      "para_id": "doc_053#p1",
+      "origin_id": "origin:doc_053"
+    },
+    {
+      "evidence_index": 191,
+      "doc_id": "doc_053",
+      "para_id": "doc_053#p1",
+      "origin_id": "origin:doc_053"
+    },
+    {
+      "evidence_index": 192,
+      "doc_id": "doc_053",
+      "para_id": "doc_053#p1",
+      "origin_id": "origin:doc_053"
+    },
+    {
+      "evidence_index": 193,
+      "doc_id": "doc_057",
+      "para_id": "doc_057#p3",
+      "origin_id": "origin:doc_057"
+    },
+    {
+      "evidence_index": 194,
+      "doc_id": "doc_057",
+      "para_id": "doc_057#p4",
+      "origin_id": "origin:doc_057"
+    },
+    {
+      "evidence_index": 195,
+      "doc_id": "doc_054",
+      "para_id": "doc_054#p6",
+      "origin_id": "origin:doc_054"
+    },
+    {
+      "evidence_index": 196,
+      "doc_id": "doc_054",
+      "para_id": "doc_054#p6",
+      "origin_id": "origin:doc_054"
+    },
+    {
+      "evidence_index": 197,
+      "doc_id": "doc_054",
+      "para_id": "doc_054#p9",
+      "origin_id": "origin:doc_054"
+    },
+    {
+      "evidence_index": 198,
+      "doc_id": "doc_055",
+      "para_id": "doc_055#p15",
+      "origin_id": "origin:doc_055"
+    },
+    {
+      "evidence_index": 199,
+      "doc_id": "doc_055",
+      "para_id": "doc_055#p13",
+      "origin_id": "origin:doc_055"
+    },
+    {
+      "evidence_index": 200,
+      "doc_id": "doc_055",
+      "para_id": "doc_055#p18",
+      "origin_id": "origin:doc_055"
+    },
+    {
+      "evidence_index": 201,
+      "doc_id": "doc_055",
+      "para_id": "doc_055#p20",
+      "origin_id": "origin:doc_055"
+    },
+    {
+      "evidence_index": 202,
+      "doc_id": "doc_057",
+      "para_id": "doc_057#p5",
+      "origin_id": "origin:doc_057"
+    },
+    {
+      "evidence_index": 203,
+      "doc_id": "doc_057",
+      "para_id": "doc_057#p5",
+      "origin_id": "origin:doc_057"
+    },
+    {
+      "evidence_index": 204,
+      "doc_id": "doc_057",
+      "para_id": "doc_057#p5",
+      "origin_id": "origin:doc_057"
+    },
+    {
+      "evidence_index": 205,
+      "doc_id": "doc_057",
+      "para_id": "doc_057#p6",
+      "origin_id": "origin:doc_057"
+    },
+    {
+      "evidence_index": 206,
+      "doc_id": "doc_057",
+      "para_id": "doc_057#p7",
+      "origin_id": "origin:doc_057"
+    },
+    {
+      "evidence_index": 207,
+      "doc_id": "doc_057",
+      "para_id": "doc_057#p7",
+      "origin_id": "origin:doc_057"
+    }
+  ]
+}

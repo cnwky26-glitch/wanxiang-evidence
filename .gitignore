@@ -1,0 +1,29 @@
+# Python运行环境与本机配置
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+
+# 本地交付包、赛方原始材料及作图工作目录
+/交付/
+*.zip
+/*.docx
+/*.pptx
+/多智能体可信研判与证据链溯源/
+/陈生钿作图/
+
+# 保留前端接口必需的完整专题快照，其余运行产物留在本机
+/artifacts/*
+!/artifacts/full_topic_ai171/
+/artifacts/full_topic_ai171/*
+!/artifacts/full_topic_ai171/run_01/
+/artifacts/full_topic_ai171/run_01/*
+!/artifacts/full_topic_ai171/run_01/input_manifest.json
+!/artifacts/full_topic_ai171/run_01/evidence_index.json
+!/artifacts/full_topic_ai171/run_01/arbitration.json
+!/artifacts/full_topic_ai171/run_01/source_analysis.json
+!/artifacts/full_topic_ai171/run_01/run.json
+!/artifacts/full_topic_ai171/run_01/evidence.json
+!/artifacts/full_topic_ai171/run_01/conclusions.json

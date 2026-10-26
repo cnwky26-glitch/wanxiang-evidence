@@ -1,0 +1,14 @@
+{
+  "status": "completed",
+  "model": "deepseek-flash",
+  "document_count": 52,
+  "question_count": 3,
+  "extraction_batches": 6,
+  "evidence_count": 208,
+  "conclusion_count": 3,
+  "source_group_count_estimate": 49,
+  "conflict_record_count": 7,
+  "started_at": "2026-10-23T11:17:07.068841+00:00",
+  "completed_at": "2026-10-23T11:19:32.373162+00:00",
+  "scope": "完整专题功能运行；未进行官方语义评分，尚无 DAG、置信度重算和前端联调。"
+}
