@@ -38,8 +38,13 @@ AppTest 的 `missing ScriptRunContext` 是测试环境告警，不是应用异�
 - 点击恢复全部基线，显示值恢复 65.17。
 - 双角色与仲裁页展示角色结论、采用理由及冲突处理记录。
 
-实际浏览器截图保存在本机交付 ZIP 的 `screenshots/` 中：`evidence_highlight.jpg`、`dependency_graph.jpg`、`weight_preview.jpg`。
-截图未纳入此次 GitHub 代码提交。
+实际浏览器截图已保存在仓库的 `screenshots/` 中：
+
+- [证据下钻与原文高亮](screenshots/evidence_highlight.jpg)
+- [依赖图谱与节点选择](screenshots/dependency_graph.jpg)
+- [撤销证据后的权重预览](screenshots/weight_preview.jpg)
+
+这些是实际浏览器画面，不是设计效果图。
 
 ## 数据层性能抽测
 
