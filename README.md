@@ -1,5 +1,20 @@
 # 万象奔策 · 多智能体可信研判与证据溯源
 
+## 新增：本地 Streamlit 交互演示
+
+仓库已提供 `frontend/`，直接读取随附 JSON，无需模型密钥或 HTTP 后端。
+详细步骤与演示路线见 [前端说明](frontend/README.md)。
+
+```powershell
+python -m venv .venv
+.\.venv\Scripts\python.exe -m pip install --no-compile -r frontend/requirements.txt
+.\.venv\Scripts\python.exe start_demo.py
+```
+
+打开 http://127.0.0.1:8501，选择问题后可下钻证据、高亮原文、查看双角色与仲裁、依赖图谱和权重预览。
+
+---
+
 AI for Science · OPC创新挑战赛项目的后端与前端联调样例。当前包含证据抽取、规则同源分组、双角色独立研判、冲突仲裁、推理依赖DAG、启发式置信度与人工权重重算。
 
 本仓库提供一个已完成专题的运行快照，供队友直接接入前端。GitHub用于代码与数据版本同步；接口服务由各自电脑启动。
@@ -40,7 +55,7 @@ python backend/serve_api.py --run-dir 'artifacts/full_topic_ai171/run_01' --topi
 
 ## 当前状态
 
-前六阶段已有首版功能；第七阶段后端接口及一次本机HTTP完整流程通过。队友前端与局域网实际联调、集中语义评测及最终交付尚未完成。
+前六阶段已有首版功能；第七阶段后端接口及一次本机HTTP完整流程通过。现已增加直接读取本地 JSON 的 Streamlit 交互演示，完成原文下钻、高亮、双角色仲裁、依赖图谱和权重预览，并通过10项数据与交互测试及本机浏览器操作验证，见 [验证记录](VERIFICATION.md)。此演示不依赖 HTTP 后端；跨电脑/局域网接口联调、集中语义评测及最终验收仍需完成。
 
 当前结果尚有已记录的语义质量遗留：人数结论开头措辞偏笼统，座位问题判断较参考答案保守，部分事实原子性仍需集中处理。格式与逐字定位通过不代表语义全部准确，不应作为正式评分或最终提交验收结论。
 
@@ -48,6 +63,6 @@ python backend/serve_api.py --run-dir 'artifacts/full_topic_ai171/run_01' --topi
 
 ## 协作
 
-王康宇负责backend；李京选接入前端。调整接口字段时同步更新接口说明。队友可在frontend/目录提交前端代码。
+王康宇负责backend；李京选接入前端。调整接口字段时同步更新接口说明。Streamlit 前端代码位于frontend/，后续页面修改在该目录协作。
 
 日常先拉取已有提交，再修改、提交并推送自己的改动。不要把本机密钥写入代码。仓库中的.gitignore排除环境文件、运行缓存、赛方原始材料与本地压缩包；保留接口所需的一个专题快照。
